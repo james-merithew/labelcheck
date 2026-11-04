@@ -1,4 +1,4 @@
-# Submission — LabelCheck
+# LabelCheck walkthrough
 
 | | |
 |---|---|
@@ -10,7 +10,7 @@
 | **Decision log** | [decisions.md](decisions.md) (each entry names the rejected alternative) |
 | **Model benchmarks** | [spike-results.md](spike-results.md) · [measured-performance.json](measured-performance.json) |
 
-## For the evaluator — 3 clicks, no data needed
+## Try it in 3 clicks, no data needed
 
 **Single check.** Open the app → under *No label handy?* click **Warning issue**. The check runs against a real bundled label and comes back red: the banner and the badge in the top bar both say *Government warning fails*, and the Government warning panel splits it — *Wording* PASS, *Formatting* FAIL, because the prefix is printed `Government Warning:` in title case, cited against 27 CFR 16.22(a)(2). A brief spinner shows the failure being double-checked by a second, independent reading before it is asserted; while that runs the headline says *Double-checking*, not *fails*.
 
